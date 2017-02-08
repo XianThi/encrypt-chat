@@ -1,5 +1,5 @@
 <?php
-define("ENCRYPTSERVER","http://localhost/encrypt/server/encrypt.php");
+define("ENCRYPTSERVER","../server/encrypt.php");
 define("DB_HOST","localhost");
 define("DB_USER","");
 define("DB_PASSWORD","");
