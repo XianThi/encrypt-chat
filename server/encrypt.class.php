@@ -187,9 +187,9 @@ return $keys;
 public static function connectDB(){
 $conn=new Config();
 $conn->db_host="localhost";
-$conn->db_name="encrypt";
-$conn->db_username="root";
-$conn->db_password="bakirkoyds";
+$conn->db_username="";
+$conn->db_password="";
+$conn->db_name="";
 
 $link= $conn->connect($conn->db_host,$conn->db_username,$conn->db_password,$conn->db_name);
 
