@@ -1,9 +1,9 @@
 <?php
 define("ENCRYPTSERVER","http://localhost/encrypt/server/encrypt.php");
 define("DB_HOST","localhost");
-define("DB_USER","root");
-define("DB_PASSWORD","bakirkoyds");
-define("DB_NAME","encrypt");
+define("DB_USER","");
+define("DB_PASSWORD","");
+define("DB_NAME","");
 define("CAN_REGISTER", "any");
 define("DEFAULT_ROLE", "member");
 define("SECURE", FALSE);    // FOR DEVELOPMENT ONLY!!!!
